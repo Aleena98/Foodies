@@ -2,12 +2,16 @@ html {
   background-color: black;
 }
 
-html, body {
-
+body {
+display: grid;
+grid-template-rows: 8;
+grid-template-column: 5;
 }
 
 button {
   background: grey;
+  grid-area: 3 / 2 / 5 / 5;
+  z-index: 5;
 }
 
 .bg {
@@ -27,4 +31,5 @@ button {
   height: 100px;
   width: 300px;
   opacity: 0.5;
+  border-radius: 25px;
 }
