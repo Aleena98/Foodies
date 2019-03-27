@@ -1,30 +1,52 @@
+
+
 html {
   background-color: black;
 }
 
-html, body {
-
-}
-
-button {
-  background: grey;
+body {
+  margin: 0; /* Adding this so there is no spacing around the body*/
+  font-family: 'Montserrat', sans-serif;
 }
 
 .bg {
-  background-image: url("Images/foodmarketbackgroundpic.jpg");
-  height: 100vh;
-  width: 100vw;
-  padding: 0;
-  margin: 0;
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-image: url("Images/backgroundpic2.jpg");
+  height: 100vh; /* 100 viewport height*/
+  width: 100vw; /* 100 viewport width*/
+  background-size: cover;
   background-position: center;
+  display: flex;
+  flex-direction: column; /* the default for flexbox is row*/
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* adding this so text is always centered, when screen size changes*/
+  padding: 10px;
+  margin: 0px;
 }
 
-.white {
+.button {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
   background-color: white;
-  background-position: center;
-  height: 100px;
-  width: 300px;
   opacity: 0.5;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Adding change of background color and font color when hovering over the button*/
+.button:hover {
+  background: grey;
+  color: white;
+  opacity: 0.8;
+}
+
+
+.invitation {
+  background-color: white;
+  opacity: 0.5;
+  font-size: 40px;
+  opacity: 0.5;
+  padding: 10px;
+  border-radius: 10px;
 }
