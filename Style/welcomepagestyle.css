@@ -1,4 +1,7 @@
 
+html {
+  overflow: hidden; /*property to get rid of scrollbar*/
+}
 body {
   margin: 0; /* Adding this so there is no spacing around the body*/
   font-family: 'Montserrat', sans-serif;
@@ -6,7 +9,7 @@ body {
 
 .bg {
   background-image: url("Images/backgroundpic5.jpg");
-  height: 100vh; /* 100 viewport height*/
+  height: 93vh; /* 93 viewport height*/
   width: 100vw; /* 100 viewport width*/
   background-size: cover;
   background-position: center;
@@ -46,4 +49,17 @@ body {
   font-size: 70px;
   padding: 10px;
   border-radius: 30px;
+}
+
+.createdby {
+  background: black;
+  color: #FFE8F3;
+  font-size: 15px;
+  font-style: italic;
+  padding-right: 20px;
+  margin-top: 0;
+  width: 100vw;
+  height: 7vh;
+  display: flex;
+  justify-content: flex-end;
 }
