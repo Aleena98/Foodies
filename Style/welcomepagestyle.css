@@ -5,7 +5,7 @@ body {
 }
 
 .bg {
-  background-image: url("Images/backgroundpic2.jpg");
+  background-image: url("Images/backgroundpic5.jpg");
   height: 100vh; /* 100 viewport height*/
   width: 100vw; /* 100 viewport width*/
   background-size: cover;
@@ -20,28 +20,30 @@ body {
 }
 
 .button {
-  font-size: 30px;
+  font-size: 50px;
   text-decoration: none;
   color: black;
+  font-weight: bold;
   background-color: white;
-  opacity: 0.5;
+  opacity: 0.7;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 /* Adding change of background color and font color when hovering over the button*/
 .button:hover {
-  background: grey;
+  background: #413736;
   color: white;
   opacity: 0.8;
 }
 
 
 .invitation {
-  background-color: white;
-  opacity: 0.5;
-  font-size: 40px;
-  opacity: 0.5;
+  background-color: #413736; /*nice grey:#423E3D */
+  color: white;
+  font-weight: bold;
+  opacity: 0.8;
+  font-size: 70px;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 30px;
 }
