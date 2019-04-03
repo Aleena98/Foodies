@@ -1,4 +1,59 @@
 
 body {
-  background-color: black;
+  background-color: white;
+  margin: 0;
+  font-family: Montserrat;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #222;
+
+}
+header {
+  background-color: #C9534D;
+}
+/*Because when using floating property for both elements(logo & nav) the actual
+header shrinked to 0, therefore we used below to  bring it back */
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.logo {
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+nav {
+  float: right;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: white;
 }
