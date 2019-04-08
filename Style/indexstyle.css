@@ -1,13 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 html {
+  background-color: white;
+  color: #555;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
   overflow: hidden; /*property to get rid of scrollbar*/
 }
-body {
-  margin: 0; /* Adding this so there is no spacing around the body*/
-  font-family: 'Montserrat', sans-serif;
-}
 
-.bg {
+
+.main {
   background-image: url("Images/backgroundpic5.jpg");
   height: 93vh; /* 93 viewport height*/
   width: 100vw; /* 100 viewport width*/
@@ -24,7 +32,8 @@ body {
 
 .logo{
   height: 250px;
-  width: 250px;
+  width: auto;
+  float: left;
 }
 
 .button {
