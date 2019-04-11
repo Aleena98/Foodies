@@ -53,15 +53,19 @@ h2 {
   padding: 10px;
 }
 
-img {
-  max-width: 100%;
+h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 200%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-h3 {
-  font-weight: bold;
-  text-align: center;
-  font-size:
-}
+
 
 /* ---HEADER SECTION--- */
 
@@ -136,4 +140,65 @@ header {
   font-weight: bold;
   border: 1px solid #413736;
   transition: 0.4s;
+}
+
+/* COUNTRIES */
+
+
+img {
+  width: 400px;
+  height: 40vh;
+  display: block;
+  margin: 5px auto;
+  border-radius: 20px;
+}
+
+section .continent {
+  height: 100vh;
+  width: auto;
+}
+
+/* MAKING TEXT OVERLAY ON COUNTRY IMAGES */
+
+.country {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 400px;
+  height: 40vh;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #413736;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+.country:hover .overlay {
+  opacity: 0.70;
+}
+
+.country:hover {
+  transform: scale(1.15);
+  transition: transform 0.5s;
+}
+
+/* ---FOOTER--- */
+
+footer {
+  background-color: #413736;
+  padding: 20px;
+
+}
+
+h4 {
+  color: white;
+  font-size: 70%;
+  float: right;
 }
