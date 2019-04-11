@@ -28,7 +28,7 @@ html {
 }
 
 section {
-  padding: 60px 0;
+  padding: 20px 0;
 }
 
 /* ---HEADINGS--- */
@@ -147,7 +147,7 @@ header {
 
 img {
   width: 400px;
-  height: 40vh;
+  height: 40vh; 
   display: block;
   margin: 5px auto;
   border-radius: 20px;
