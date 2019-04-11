@@ -17,7 +17,7 @@ html {
 
 .main {
   background-image: url("Images/backgroundpic5.jpg");
-  height: 93vh; /* 93 viewport height*/
+  height: 95vh; /* 94 viewport height*/
   width: 100vw; /* 100 viewport width*/
   background-size: cover;
   background-position: center;
@@ -63,19 +63,24 @@ html {
   font-size: 50px;
   padding: 10px;
   border-radius: 30px;
-
   margin-top: 15px;
 }
 
-.createdby {
-  background: black;
-  color: #FFE8F3;
-  font-size: 15px;
-  font-style: italic;
-  padding-right: 20px;
-  margin-top: 0;
-  width: 100vw;
-  height: 7vh;
-  display: flex;
-  justify-content: flex-end;
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* ---FOOTER--- */
+
+footer {
+  background-color: black;
+  height: 5vh;
+
+}
+
+h4 {
+  color: white;
+  font-size: 70%;
+  float: right;
 }
