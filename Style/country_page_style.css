@@ -1,0 +1,149 @@
+/* Red color: #eb4d4b
+  Darker red: #e82f2c
+  Brown color: #413736
+ */
+
+
+/* ---BASIC SETUP--- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: white;
+  color: #555;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+/* ---REUSABLE COMPONENTS--- */
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.fullpagesection {
+  height: 100vh;
+}
+
+h3 {
+  letter-spacing: 1px;
+  font-size: 150%;
+  word-spacing: 3px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #eb4d4b;
+  padding: 10px;
+}
+
+/* ---HEADER--- */
+
+nav {
+  box-shadow: 0 2px 2px #efefef;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.97);
+}
+
+.logo {
+  height: 70px;
+  width: auto;
+  float: left;
+
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 200%;
+  word-spacing: 3px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #eb4d4b;
+  padding: 10px;
+}
+
+/* ---MAIN NAVIGATION--- */
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 25px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px 0;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 100%;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #eb4d4b;
+  transition: 0.4s;
+}
+
+/* ---MAIN SECTION --*/
+
+img {
+  height: 300px;
+  width: 500px;
+  float: right;
+  border-radius: 20px;
+}
+
+p {
+  margin: 50px 0;
+}
+
+.icons li {
+  list-style: none;
+  font-size: 2em;
+  display: inline-block;
+  margin-right: 40px;
+  text-align: center;
+
+}
+
+.icons li a:link,
+.icons li a:visited {
+  text-decoration: none;
+  color: inherit;
+
+}
+
+/* --- SLIDESHOW GALLERY */
+
+
+/* ---FOOTER--- */
+
+footer {
+  background-color: #413736;
+  padding: 20px;
+  bottom:0;
+  width:100%;
+
+}
+
+h4 {
+  color: white;
+  font-size: 70%;
+  float: right;
+}
