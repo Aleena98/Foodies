@@ -66,7 +66,7 @@ h2 {
   word-spacing: 3px;
   text-align: center;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin: 30px 0;
   border-bottom: 2px solid #eb4d4b;
   padding: 10px;
 }
@@ -102,7 +102,7 @@ h2 {
 
 /* ---MAIN SECTION --*/
 
-img {
+.countryimage {
   height: 300px;
   width: 500px;
   float: right;
@@ -118,6 +118,7 @@ p {
   font-size: 2em;
   display: inline-block;
   margin-right: 40px;
+  margin-left: 20px;
   text-align: center;
 
 }
@@ -129,7 +130,38 @@ p {
 
 }
 
-/* --- SLIDESHOW GALLERY */
+/* --- OVERLAY EFFECT--- */
+
+.photo_description {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  width: 500px;
+  border-radius: 20px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #413736;
+}
+
+.photo_description:hover .overlay {
+  opacity: 0.70;
+}
+
+.image {
+  height: 300px;
+  width: 500px;
+  border-radius: 20px;
+}
+
+
+
 
 
 /* ---FOOTER--- */
