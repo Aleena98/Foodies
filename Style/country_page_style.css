@@ -42,6 +42,29 @@ h3 {
   padding: 10px;
 }
 
+h4 {
+  font-weight: bold;
+  font-size: 140%;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.icon_back {
+  float: right;
+  font-size: 2em;
+  display: inline-block;
+  margin-right: 40px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.icon_back a:link,
+.icon_back a:visited {
+  text-decoration: none;
+  color: inherit;
+
+}
+
 /* ---HEADER--- */
 
 nav {
@@ -109,7 +132,7 @@ h2 {
   border-radius: 20px;
 }
 
-p {
+.description p {
   margin: 50px 0;
 }
 
@@ -129,38 +152,99 @@ p {
   color: inherit;
 
 }
-
-/* --- OVERLAY EFFECT--- */
-
-.photo_description {
-  position: relative;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 300px;
-  width: 500px;
-  border-radius: 20px;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #413736;
-}
-
-.photo_description:hover .overlay {
-  opacity: 0.70;
-}
+/* --- MAIN DISHES SECTION--- */
 
 .image {
   height: 300px;
   width: 500px;
   border-radius: 20px;
+  margin: 20px 20px;
 }
 
+.image:hover {
+  transform: scale(1.15);
+  transition: transform 0.5s;
+}
 
+.dish_description {
+  margin: auto;
+  text-align: center;
+}
+
+/* --- DESSERT SECTION--- */
+
+.dessert_image {
+  margin: 10px auto;
+  height: 300px;
+  width: 500px;
+  border-radius: 20px;
+  display: block;
+}
+
+.dessert_image:hover {
+  transform: scale(1.15);
+  transition: transform 0.5s;
+}
+
+.dessert_description {
+  text-align: center;
+}
+
+/* --- DESSERT SECTION--- */
+
+.drink_image {
+  margin: 10px auto;
+  height: 300px;
+  width: 500px;
+  border-radius: 20px;
+  display: block;
+}
+
+.drink_image:hover {
+  transform: scale(1.15);
+  transition: transform 0.5s;
+}
+
+.drink_description {
+  text-align: center;
+}
+
+/* -- INTERESTING FACT SECTION --- */
+
+.fact_image {
+  margin: 10px auto;
+  height: 300px;
+  width: 500px;
+  border-radius: 20px;
+  display: block;
+}
+
+.fact_image:hover {
+  transform: scale(1.15);
+  transition: transform 0.5s;
+}
+
+.fact_description {
+  font-size: 130%;
+  text-align: center;
+  margin: 70px 0;
+
+}
+
+.interestingfact {
+  margin: 50px auto;
+}
+
+/* --- MAP LOCATOR --- */
+.mapouter {
+  margin: 30px auto;
+}
+
+.finder {
+  font-size: 130%;
+  text-align: center;
+  margin: 10px 0;
+}
 
 
 
@@ -174,7 +258,7 @@ footer {
 
 }
 
-h4 {
+h5 {
   color: white;
   font-size: 70%;
   float: right;
