@@ -37,8 +37,9 @@ html {
 }
 
 .button {
-  font-size: 30px;
+  font-size: 20px;
   text-decoration: none;
+  text-transform: uppercase;
   color: black;
   font-weight: bold;
   background-color: white;
@@ -59,8 +60,9 @@ html {
   background-color: #413736; /*nice grey:#423E3D */
   color: white;
   font-weight: bold;
+  text-transform: uppercase;
   opacity: 0.8;
-  font-size: 50px;
+  font-size: 40px;
   padding: 10px;
   border-radius: 30px;
   margin-top: 15px;
