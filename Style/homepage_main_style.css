@@ -147,7 +147,7 @@ header {
 
 img {
   width: 400px;
-  height: 40vh; 
+  height: 40vh;
   display: block;
   margin: 5px auto;
   border-radius: 20px;
@@ -191,11 +191,10 @@ section .continent {
 
 /* ---FOOTER--- */
 
+}
 footer {
   background-color: #413736;
   padding: 20px;
-
-}
 
 h4 {
   color: white;
