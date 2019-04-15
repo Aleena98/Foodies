@@ -191,10 +191,13 @@ section .continent {
 
 /* ---FOOTER--- */
 
-}
+
 footer {
   background-color: #413736;
   padding: 20px;
+  bottom:0;
+  width:100%;
+}
 
 h4 {
   color: white;
